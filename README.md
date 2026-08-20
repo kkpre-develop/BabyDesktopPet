@@ -6,7 +6,15 @@ macOS 桌面悬浮宝宝宠物 —— 基于 AI 生成的宝宝形象，悬浮�
 
 直接下载最新版应用（免编译）：
 
-👉 **[下载 BabyDesktopPet_v4.zip](https://github.com/kkpre-develop/BabyDesktopPet/releases/latest)**（Releases 页面的附件）
+👉 **[下载 BabyDesktopPet_v4_ditto.zip](https://github.com/kkpre-develop/BabyDesktopPet/releases/latest)**（Releases 页面附件）
+
+> **如果双击提示「已损坏，应该移到废纸篓」**：这是 macOS 对网上下载的未签名 App 的隔离提示，**文件本身没有坏**。在终端执行即可解决：
+>
+> ```bash
+> xattr -cr /Applications/BabyDesktopPet.app
+> ```
+>
+> （没放进「应用程序」就换成实际路径；完整图文说明见 Releases 附件 `INSTALL_FIX.txt`）
 
 解压后拖入「应用程序」或双击运行即可。详细使用说明见 `安装说明.txt`。
 
